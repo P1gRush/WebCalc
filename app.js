@@ -26,7 +26,7 @@ buttons.forEach(function (button) {
 function sizeChanger(operation) {
 	for (let i = 0; i < buttons.length; i++) {
 		if (buttons[i].title === operation) {
-			document.getElementById(buttons[i].title).style.width = '80%'
+			document.getElementById(buttons[i].title).style.width = '70%'
 			document.getElementById(buttons[i].title).style.backgroundColor =
 				buttons[i].color
 		} else {
