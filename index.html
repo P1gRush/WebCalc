@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="main.css" />
+		<script src="app.js" defer></script>
+	</head>
+	<body>
+		<div class="calculator">
+			<h1>Калькулятор</h1>
+			<input
+				type="number"
+				class="input"
+				id="num1"
+				placeholder="Введите число 1"
+				value="10"
+			/>
+			<input
+				type="number"
+				class="input"
+				id="num2"
+				placeholder="Введите число 2"
+				value="5"
+			/>
+			<div class="operations">
+				<button class="operations__btn sum" id="plus">+</button>
+				<button class="operations__btn sub" id="minus">-</button>
+				<button class="operations__btn mult" id="mult">*</button>
+				<button class="operations__btn div" id="div">/</button>
+			</div>
+			<button class="submit" id="submit">Вычислить</button>
+			<div class="result">
+				<h4 class="result__title">Результат:</h4>
+				<p class="result__value" id="result">49</p>
+			</div>
+		</div>
+	</body>
+</html>
