@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -32,9 +32,23 @@
 			</div>
 			<button class="submit" id="submit">Вычислить</button>
 			<div class="result">
-				<h4 class="result__title">Результат:</h4>
-				<p class="result__value" id="result">49</p>
+				<h4 class="result__title">Результаты:</h4>
 			</div>
+			<ul class="lastResults" id="list">
+				<!-- `
+					<li class="lastResults__item">
+						<div class="lastResults__title">${result}</div>
+						<div class="buttons" >
+					<button class="buttons__copy-Btn" data-index = "${index}" data-type = "copy" id = "copy">
+						<img src="svg/copy-file-icon.svg" alt="">
+					</button>
+					<button class="buttons__delete-Btn" data-index = "${index}" data-type = "remove" id = "delete">
+						<img src="svg/close-square-line-icon.svg" alt="">
+					</button>
+					</div>
+					</li>
+		` -->
+			</ul>
 		</div>
 	</body>
 </html>

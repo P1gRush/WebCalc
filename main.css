@@ -142,12 +142,71 @@ h1 {
 	color: aqua;
 }
 .result {
-	display: flex;
-	justify-content: center;
 	margin-top: 10px;
 	font-size: 16px;
 	color: aqua;
 }
 .result__value {
 	margin-left: 5px;
+}
+
+.lastResults__item {
+	height: 40px;
+	width: 100%;
+	margin-top: 10px;
+	background-color: rgb(239, 234, 234);
+	border-radius: 5px;
+	border: 1px solid aqua;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.lastResults__title {
+	padding-left: 10px;
+}
+.lastResults li {
+	color: black;
+}
+.buttons {
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+}
+.buttons__delete-Btn,
+.buttons__copy-Btn {
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+	opacity: 0.3;
+}
+.buttons__delete-Btn img {
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+.buttons__delete-Btn {
+	color: black;
+	transition:
+		transform 0.2s ease,
+		opacity 0.2s ease;
+}
+.buttons__delete-Btn:hover {
+	transform: scale(1.2);
+	opacity: 1;
+}
+.buttons__copy-Btn img {
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+.buttons__copy-Btn {
+	color: black;
+	transition:
+		transform 0.2s ease,
+		opacity 0.2s ease;
+}
+.buttons__copy-Btn:hover {
+	transform: scale(1.2);
+	opacity: 1;
 }
